@@ -109,7 +109,7 @@
 
 **3-1. 데이터 분석 파이프라인**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image.png)
+![image.png](images/image.png)
 
 **3-2. 분석 축제 선정**
 
@@ -141,7 +141,7 @@
 
 **지역 내/외 방문 비율, 지역 내 축제 방문객의 이동수단 비율**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%201.png)
+![image.png](images/image1.png)
 
 '지역 내 방문'이 99.6%를 차지 축제 방문객 중 76.2%가 차량을 이용하여 축제에 방문
 
@@ -151,13 +151,13 @@
 
 강릉, 임실의 마지막 도보시간이 상대적으로 높게 나타남
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%202.png)
+![image.png](images/image2.png)
 
 **루트별 평균 환승 횟수**
 
 루트별 평균 환승 횟수가 많을수록 방문객의 접근 피로도가 증가할 것이라는 예상
 
-![스크린샷 2026-05-12 오전 2.00.58.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/f77cf14e-4ca0-4607-b235-d06a9e601517.png)
+![스크린샷 2026-05-12 오전 2.00.58.png](images/image16.png)
 
 '부산 -> 임실', '서울 -> 강릉 경포호수광장' 방문객의 루트별 평균 환승 횟수가 높음
 
@@ -165,13 +165,13 @@
 
 축제기간과 축제기간 전/후의 이동속도에 차이가 있을 것이라는 예상
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%203.png)
+![image.png](images/image3.png)
 
 축제기간 내 이동수단의 평균 속도가 타 기간에 비해 느림, 축제기간 시 축제지역 내 인구 집중 및 교통체증 발생
 
 **축제별 방문객 TOP5 지역**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%204.png)
+![image.png](images/image4.png)
 
 축제에 방문한 방문객이 출발한 지역은 모두 축제지 근방임을 확인
 
@@ -179,7 +179,7 @@
 
 방문 데이터, 귀가 데이터, 목적별 시간대별 이동/체류 인구 비교
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%205.png)
+![image.png](images/image5.png)
 
 시간대별 축제 체류 인구와 귀가 체류 인구가 서로 부합
 
@@ -219,7 +219,7 @@
         - 도착지: 대전, 부산, 강릉, 임실, 서울 축제 장소
         - 수집 경로
         
-        ![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%206.png)
+        ![image.png](images/image6.png)
         
 - 데이터 상세 설명
     - routeID: 출발지로부터 도착지로 가는 루트 코드
@@ -263,13 +263,13 @@
 
 **군집 수 결정**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%207.png)
+![image.png](images/image7.png)
 
 군집 수가 2일 때, 실루엣 점수가 가장 높지만, 데이터 특성 및 분포를 감안하여 군집 수를 4로 결정
 
 **1. 서울 세계 불꽃 축제**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%208.png)
+![image.png](images/image8.png)
 
 - 축제 특성
     
@@ -290,7 +290,7 @@
 
 **2. 부산 국제 영화제**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%209.png)
+![image.png](images/image9.png)
 
 - 축제 특성
     
@@ -331,7 +331,7 @@
 
 **4. 강릉 커피 축제 (강릉 스피드 스케이팅 경기장)**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%2010.png)
+![image.png](images/image10.png)
 
 - 축제 특성
     
@@ -352,7 +352,7 @@
 
 **5. 강릉 커피 축제 (강릉 경포호수광장)**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%2011.png)
+![image.png](images/image11.png)
 
 - 축제 특성
     
@@ -373,7 +373,7 @@
 
 **6. 임실 N 치즈 축제**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%2012.png)
+![image.png](images/image12.png)
 
 - 축제 특성
     
@@ -418,7 +418,7 @@
     ```
     
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%2013.png)
+![image.png](images/image13.png)
 
 **모델링**
 
@@ -445,7 +445,7 @@
 
 **최종 모델**
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%2014.png)
+![image.png](images/image14.png)
 
 - accuracy: 0.7853
 - AUC: 0.9248
@@ -455,7 +455,7 @@
 
 부분 의존도 그래프(PDP, Partial Dependence Plot)를 통해 개별 변수가 예측에 미치는 영향 해석
 
-![image.png](2024%20%EB%B9%85%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%20%EB%B6%84%EC%95%BC/image%2015.png)
+![image.png](images/image15.png)
 
 - 평균 이동거리: 평균 이동거리가 길수록 시내버스의 확률 감소, 지하철/철도/항공기의 확률 증가
 - 평균 이동시간
